@@ -176,7 +176,8 @@ main:focus, main:focus-visible { outline: none; }
 .bento__cell--wide, .bento__cell--accent { grid-column: span 2; }
 .bento__cell--accent { background: var(--red); color: #fff; border-color: var(--red); display: flex; flex-direction: column; justify-content: center; }
 .bento__cell--accent .bento__big { font-family: var(--ff-head); font-weight: 800; font-size: clamp(2.6rem, 5vw, 3.6rem); line-height: 1; }
-.bento__cell--accent p { color: rgba(255,255,255,.9); margin-top: .4rem; }
+/* двойной класс — чтобы перебить общий тёмный .bento__cell p (одинаковая специфичность) */
+.bento__cell.bento__cell--accent p { color: rgba(255,255,255,.92); margin-top: .4rem; }
 .bento__ic { display: grid; place-items: center; width: 50px; height: 50px; border-radius: 13px; background: var(--red-tint); margin-bottom: 1rem; }
 .bento__ic svg { width: 26px; height: 26px; fill: none; stroke: var(--red); stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
 .bento__cell--lg .bento__ic { width: 58px; height: 58px; }
