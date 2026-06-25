@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#d4002d"/>
+  <svg x="13" y="16" width="38" height="30" viewBox="0 0 100 80" preserveAspectRatio="xMidYMid meet">
+    <path d="M6 32 L50 4 L94 32 L94 44 L50 16 L6 44 Z M6 60 L50 32 L94 60 L94 72 L50 44 L6 72 Z" fill="#fffdf9"/>
+  </svg>
+</svg>
